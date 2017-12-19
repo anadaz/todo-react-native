@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
   note: {
     position: 'relative',
     padding: 20,
+    top: 5,
     paddingRight: 100,
     borderBottomWidth: 2,
     borderBottomColor: '#ededed',

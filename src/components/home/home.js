@@ -47,7 +47,7 @@ export default class Home extends Component {
             onSubmitEditing={() => {this.addNote()}}
             >
           </TextInput>
-          <TouchableOpacity style={styles.addButton} onPress={this.addNote.bind(this)}>
+           <TouchableOpacity style={styles.addButton} onPress={this.addNote.bind(this)}>
             <Text style={styles.addButtonText}>+</Text>
           </TouchableOpacity>
         </KeyboardAvoidingView>
